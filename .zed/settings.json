@@ -1,0 +1,24 @@
+{
+  "lsp": {
+    "luau-lsp": {
+      "settings": {
+        "roblox": {
+          "enabled": true,
+          "security_level": "roblox_script",
+        },
+        "fflags": {
+          "enable_new_solver": true,
+        },
+        "luau-lsp": {
+          "types": {
+            "definitionFiles": ["Definitions/sUNC.d.luau"],
+          },
+          "sourcemap": {
+            "enabled": false,
+          },
+        },
+        "definitions": ["Definitions/sUNC.d.luau"],
+      },
+    },
+  },
+}
